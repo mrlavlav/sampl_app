@@ -6,12 +6,12 @@ gem 'rails', '4.2.5'
 
 group :development, :test do
   gem 'sqlite3' 
-  gem 'rspec-rails', '2.13.1'
+  gem 'rspec-rails', ">= 2.0.0.beta"
+  gem 'capybara','2.2.0'
 end
-
 group :test do
   gem 'selenium-webdriver', '2.35.1'
-  gem 'capybara', '2.1.0'
+  
 end
 
 gem 'sass-rails', '4.0.1'
