@@ -5,7 +5,7 @@ ruby '2.3.1'
 gem 'rails', '4.2.5'
 gem 'bootstrap-sass', '2.3.2.0'
 gem 'bcrypt-ruby', '3.1.2'
-
+gem 'rspec-its', '~> 1.0.0'
 group :development, :test do
   gem 'sqlite3' 
   gem 'rspec-rails', ">= 2.0.0.beta"
